@@ -19,3 +19,5 @@ Foi parametrizado apenas 2 views no projeto, uma para erro 404 e outra para list
 ## Estrutura
 
 A arquitetura utilizada no sistema é um mvc simples.
+
+![Screenshot](screenshot01.png)

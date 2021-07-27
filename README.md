@@ -4,7 +4,8 @@ Captura o parâmetro 'p' via get passado pela ulr, assim a lógica divide o núm
 
 ## Conexão com a base de dados
 
-Inserir os dados de configuração no arquivo config.php
+Inserir os dados de configuração no arquivo:
+	* config.php
 
 ## Views
 

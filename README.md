@@ -7,6 +7,11 @@ Captura o parâmetro 'p' via get passado pela ulr, assim a lógica divide o núm
 Inserir os dados de configuração no arquivo:
 	* config.php
 
+## Base URL
+
+Inserir a url base até a pasta public no arquivo:
+	* config.php
+
 ## Views
 
 Foi parametrizado apenas 2 views no projeto, uma para erro 404 e outra para listagem.

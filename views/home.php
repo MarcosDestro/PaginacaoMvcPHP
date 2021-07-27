@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="<?=BASE_URL?>/assets/css/normalize.css">
     <link rel="stylesheet" href="<?=BASE_URL?>/assets/css/style.css">
-    <title>Document</title>
+    <title>Documento Novo</title>
 </head>
 <body>
     <h2>Este é o home</h2>

@@ -1,0 +1,26 @@
+<?php
+require_once "environment.php";
+global $db;
+
+if(ENVIRONMENT == "development"){
+    define("BASE_URL" , "http://localhost/A_Projs_Mvc/MVC_Paginacao/");
+    $dbname = "***";
+    $dbhost = "***";
+    $dbuser = "***";
+    $dbpass = "";
+}else{
+    echo "INCLUIR INFOS DO BANCO ONLINE";
+    define("BASE_URL" , "http://meusite.com.br/");
+    $dbname = "***";
+    $dbhost = "***";
+    $dbuser = "***";
+    $dbpass = "***";
+}
+
+try {
+    $db = new PDO("mysql:dbname=".$dbname.";host=".$dbhost, $dbuser, $dbpass);
+} catch(PDOException $e){
+    echo "ERRO: ".$e->getMessage();
+}
+
+?>

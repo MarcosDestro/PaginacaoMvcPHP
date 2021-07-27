@@ -1,0 +1,22 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container{
+    min-height: 500px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    margin: 5px;
+}
+a span{
+    font-weight: bold;
+    text-decoration: underline;
+    color: rgb(12, 160, 44);
+}
+
+th, td{
+    background-color: #ddd;
+    padding: 12px;
+}
